@@ -1,0 +1,181 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {308, 233}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WH",
+          "font_size" : 64,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "2F2BA7D5-B481-44B3-BFC7-F82AFBAB1437",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "0:00",
+          "name" : "timer_display",
+          "font_name" : "AmericanTypewriter-Bold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 410}, {150, 64}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 0,
+          "action" : "self.on_button_green",
+          "flex" : "WT",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Start",
+          "uuid" : "5A7749D3-EF77-4166-86F9-D56CA574232B",
+          "background_color" : "RGBA(0.633333,1.000000,0.633333,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 4,
+          "name" : "button_green",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{164, 410}, {150, 64}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 0,
+          "flex" : "WT",
+          "action" : "self.on_button_red",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Stop",
+          "uuid" : "5A7749D3-EF77-4166-86F9-D56CA574232B",
+          "background_color" : "RGBA(1.000000,0.633333,0.633333,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 4,
+          "name" : "button_red",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 247}, {96, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "self.on_button_add_01",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "+1 minute",
+          "uuid" : "4B8BF626-0E47-4752-8B2A-4C16B6FE564E",
+          "class" : "Button",
+          "name" : "button_add_1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{110, 247}, {96, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "self.on_button_add_03",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "+3 minutes",
+          "class" : "Button",
+          "uuid" : "4B8BF626-0E47-4752-8B2A-4C16B6FE564E",
+          "font_size" : 15,
+          "name" : "button_add_3"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{218, 247}, {96, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "self.on_button_add_05",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "+5 minutes",
+          "uuid" : "4B8BF626-0E47-4752-8B2A-4C16B6FE564E",
+          "class" : "Button",
+          "name" : "button_add_5",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 299}, {96, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "self.on_button_add_07",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "+7 minutes",
+          "class" : "Button",
+          "uuid" : "4B8BF626-0E47-4752-8B2A-4C16B6FE564E",
+          "font_size" : 15,
+          "name" : "button_add_7"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{110, 299}, {96, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "self.on_button_add_11",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "+11 minutes",
+          "uuid" : "4B8BF626-0E47-4752-8B2A-4C16B6FE564E",
+          "class" : "Button",
+          "name" : "button_add_1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{218, 299}, {96, 44}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "self.on_button_add_13",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "+13 minutes",
+          "class" : "Button",
+          "uuid" : "4B8BF626-0E47-4752-8B2A-4C16B6FE564E",
+          "font_size" : 15,
+          "name" : "button_add_13"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Kitchen Timer"
+    },
+    "selected" : false
+  }
+]
