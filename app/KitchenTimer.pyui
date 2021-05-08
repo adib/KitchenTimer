@@ -14,7 +14,7 @@
           "uuid" : "2F2BA7D5-B481-44B3-BFC7-F82AFBAB1437",
           "class" : "Label",
           "alignment" : "center",
-          "text" : "0:00",
+          "text" : "",
           "name" : "timer_display",
           "font_name" : "AmericanTypewriter-Bold"
         },
@@ -29,7 +29,7 @@
         "attributes" : {
           "border_width" : 0,
           "action" : "self.on_button_green",
-          "flex" : "WT",
+          "flex" : "WRT",
           "frame" : "{{120, 224}, {80, 32}}",
           "title" : "Start",
           "uuid" : "5A7749D3-EF77-4166-86F9-D56CA574232B",
@@ -49,7 +49,7 @@
         "class" : "Button",
         "attributes" : {
           "border_width" : 0,
-          "flex" : "WT",
+          "flex" : "WLT",
           "action" : "self.on_button_red",
           "frame" : "{{120, 224}, {80, 32}}",
           "title" : "Stop",
@@ -60,7 +60,7 @@
           "name" : "button_red",
           "font_size" : 15
         },
-        "selected" : false
+        "selected" : true
       },
       {
         "nodes" : [
@@ -162,7 +162,7 @@
           "font_size" : 15,
           "name" : "button_add_13"
         },
-        "selected" : true
+        "selected" : false
       }
     ],
     "frame" : "{{0, 0}, {320, 480}}",
